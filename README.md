@@ -1,8 +1,16 @@
 # Task-1-Titanic-Survival-Prediction
-How to Run in Google Colab:
-1)Open Google Colab.
-2)Upload tested.csv when prompted.
-3_Run all cells to preprocess the data, train the model, and evaluate its performance.
+Steps to Run the Project
+1)Upload & Load Data
+2)Upload the dataset (tested.csv) in Google Colab using files.upload().
+3)Load the dataset using pd.read_csv().
+4)Train-Test Split:
+Split data into 80% training and 20% testing using train_test_split().
+
 Visualization:
-A count plot of survivors vs. non-survivors using Seaborn.
-NOTE:You may access the code in the repository and for running the code you may open google colab and check the codes. I have attached the code with the output in the code sction of the repository itself.
+Generate a Survival Count Plot using seaborn.countplot().
+
+Code Structure
+Preprocessing: Handling missing values, encoding, and scaling.
+Training: Logistic Regression model.
+Evaluation: Metrics + Cross-validation. 
+Visualization: Count plot of survival distribution.
